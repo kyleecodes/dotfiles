@@ -39,7 +39,7 @@ vim.g.mapleader = ' '
 -- Folds
 vim.opt.foldmethod = 'marker'
 vim.opt.list = true
-vim.opt.listchars = 'tab:>-,trail:-,nbsp:_'
+vim.opt.listchars = 'trail:-,nbsp:+,tab:▏ ,eol:↴'
 
 -- reload files changed outside vim
 vim.opt.autoread = true
